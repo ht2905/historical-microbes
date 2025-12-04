@@ -1,0 +1,154 @@
+---
+title: Short Paper
+subtitle: Subtitle
+author:
+  - name: Tran Quoc Hoang
+    email: tranquochoang@protonmail.com
+    affiliations: 
+        - id: international-uni
+          name: International University - VNU-HCM
+          department: School of Biotechnology
+          address: Quarter 33, Linh Xuan Ward
+          city: Ho Chi Minh City
+          state: ~
+          postal-code: 71309
+          country: Vietnam
+    attributes:
+        corresponding: true
+    note: "Student ID: BTBTWE24036"
+
+  - name: Author 2
+    email: "a2@student.hcmiu.edu.vn"
+    affiliations:
+        - id: international-uni
+    note: ~
+
+  - name: Author 3
+    email: "a3@student.hcmiu.edu.vn"
+    affiliations:
+        - id: international-uni
+    note: ~
+
+  - name: Author 4
+    email: "a4@student.hcmiu.edu.vn"
+    affiliations:
+        - id: international-uni
+    note: ~
+    
+  - name: Author 5
+    email: "a5@student.hcmiu.edu.vn"
+    affiliations:
+        - id: international-uni
+    note: ~
+
+abstract: |
+  This is the abstract. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum augue turpis, dictum non malesuada a, volutpat eget velit. Nam placerat turpis purus, eu tristique ex tincidunt et. Mauris sed augue eget turpis ultrices tincidunt. Sed et mi in leo porta egestas. Aliquam non laoreet velit. Nunc quis ex vitae eros aliquet auctor nec ac libero. Duis laoreet sapien eu mi luctus, in bibendum leo molestie. Sed hendrerit diam diam, ac dapibus nisl volutpat vitae. Aliquam bibendum varius libero, eu efficitur justo rutrum at. Sed at tempus elit.
+keywords: 
+  - keyword1
+  - keyword2
+date: last-modified
+bibliography: bibliography.bib
+format:
+  elsevier-pdf:
+    tables: float
+    includes:
+      in_header: preamble.tex
+    keep-tex: true
+    # cite-method: citeproc # Default is `natbib`
+    journal:
+      name: ~
+      # formatting: preprint
+      model: 5p # Don't set a model with preprint. Specify one or two columns only when using 3p.
+      # layout: twocolumn
+      # cite-style: authoryear
+      cite-style: number
+      # cite-style: super # Not supported by `citeproc`
+    # csl: elsevier-vancouver.csl
+---
+
+```{=html}
+<!--
+comment template, so I don't forget how to do it lol
+-->
+```
+
+```{r renv-dependencies, include=FALSE}
+# This chunk makes the core R rendering packages visible to renv::snapshot()
+# The 'knitr' and 'rmarkdown' packages pull in most of the other dependencies.
+library(knitr)
+library(rmarkdown)
+library(tinytex) 
+library(yaml)
+library(ragg)
+```
+
+\begin{center}
+\textbf{Submission Note:} Paper prepared for the Microbiology (BT321IU) course, International University - VNU-HCM.
+\end{center}
+
+# Introduction
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+
+# Microbes that Changed History
+
+This section examines the all-encompassing influence of pathogenic microbes on human civilization, focusing on two specific agents that altered demographic, economic, and social structures globally.
+
+## The Black Death and *Yersinia pestis*
+
+The Black Death, a devastating pandemic that peaked between 1346 and 1353, serves as a primary example of microbial impact on human history. The disease is believed to have traveled along the Silk Road from Central Asia to Europe, facilitated by the expansion of trade routes and the movement of armies
+
+## Smallpox and Global Eradication
+
+Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a turpis vel dolor mattis tincidunt vel ac tortor.
+
+# Famous Microbiologists and Groundbreaking Discoveries
+
+Donec ut dolor in massa auctor egestas. Nam eu massa. Sed convallis tristique sem. Proin ut ligula non magna fermentum. In a enim. Suspendisse sagittis. Fusce nec tellus sed augue semper porta. Mauris massa.
+
+## Louis Pasteur: The Father of Modern Microbiology
+
+Sed hendrerit diam diam, ac dapibus nisl volutpat vitae. Aliquam bibendum varius libero, eu efficitur justo rutrum at. Sed at tempus elit. Nullam accumsan ipsum sit amet dui. Integer id odio.
+
+## Alexander Fleming: The Serendipitous Discovery
+
+Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus in erat ut urna cursus vestibulum. Morbi in dui quis est pulvinar ullamcorper. Vivamus sed dictum magna.
+
+## Robert Koch and Koch's Postulates
+
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+# Microbes in Art and Culture
+
+PGx testing directly translates genetic data into evidence-based clinical decisions, which fundamentally alters the traditional trial-and-error approach to antidepressant therapy. By utilizing genetic data, clinicians can optimize treatment efficacy and safety with informed drug selections and precise dosage adjustments.
+
+## Bacterial Art (Agar Art/Bio-Painting)
+
+## Yeast and Fungi in Pigmentation and Textiles
+
+## Microbes in Fiction and Media (Optional)
+
+# Bacteria in Space (Astromicrobiology)
+
+Aliquam non laoreet velit. Nunc quis ex vitae eros aliquet auctor nec ac libero. Duis laoreet sapien eu mi luctus, in bibendum leo molestie. Nullam dictum felis eu pede mollis pretium.
+
+# Conclusion
+
+# Abbreviations
+
+\begin{tabular}{l|l}
+  \textbf{Abbreviation} & \textbf{Full Term} \\
+    \hline
+    PGx & Pharmacogenomic \\
+    DSA & Dolor sit amet \\
+\end{tabular}
+
+# Declaration of Competing Interest
+
+The authors declare no competing interests.
+
+# Data/Code Availability
+
+The Quarto source code for this paper is available at \url{https://github.com/ht2905/historical-microbes}.
+
+# References
