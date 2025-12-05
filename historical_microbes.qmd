@@ -96,7 +96,11 @@ This section examines the all-encompassing influence of pathogenic microbes on h
 
 ## The Black Death and *Yersinia pestis*
 
-The Black Death, a devastating pandemic that peaked between 1346 and 1353, serves as a primary example of microbial impact on human history. The disease is believed to have traveled along the Silk Road from Central Asia to Europe, facilitated by the expansion of trade routes and the movement of armies
+The Black Death, a devastating pandemic caused by the bacterium *Y. pestis* that peaked between 1346 and 1353, serves as a primary example of microbial impact on human history. The disease is believed to have traveled along the Silk Road from Central Asia to Europe, facilitated by the expansion of trade routes and the movement of armies [@BlackDeathPlague2025; @spyrouSourceBlackDeath2022]. Upon reaching Europe, the plague caused a demographic collapse of unprecedented scale, killing an estimated 50% of the population in affected regions of Europe and Asia [@BlackDeathEuropean; @aberthBrinkApocalypseConfronting2013]
+
+The massive loss of life triggered profound societal and economic shifts. The sudden scarcity of labor empowered the surviving peasantry, which led to the decline of the feudal system as workers demanded higher wages and better conditions [@DecameronWebPlague; @LaborShortagesAlter]. The psychological trauma of the pandemic also reshaped religious and social attitudes, manifesting in extreme movements such as the flagellants and the persecution of minority groups [@markReligiousResponsesBlack2020; @zentnerBlackDeathIts].
+
+The causative agent of the plague is the bacterium *Yersinia pestis*. The transmission cycle historically involved the black rat (*Rattus rattus*) and the rat flea (*Xenopsylla cheopis*) [@eisenEarlyPhaseTransmissionYersinia2007]. When the flea bites an infected host, the bacteria block the flea's digestive tract, causing it to regurgitate the pathogen into the bloodstream of a new host during subsequent feeding attempts [@hinnebuschComparativeAbilityOropsylla2017]. While bubonic plague was the most common form, the pneumonic form allowed for direct person-to-person transmission—thereby accelerating the spread [@earnAccelerationPlagueOutbreaks2020; @Plague].
 
 ## Smallpox and Global Eradication
 
