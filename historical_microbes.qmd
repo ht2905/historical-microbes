@@ -5,40 +5,40 @@ author:
   - name: Tran Quoc Hoang
     email: tranquochoang@protonmail.com
     affiliations: 
-        - id: international-uni
-          name: International University - VNU-HCM
-          department: School of Biotechnology
-          address: Quarter 33, Linh Xuan Ward
-          city: Ho Chi Minh City
-          state: ~
-          postal-code: 71309
-          country: Vietnam
+      - id: international-uni
+        name: International University - VNU-HCM
+        department: School of Biotechnology
+        address: Quarter 33, Linh Xuan Ward
+        city: Ho Chi Minh City
+        state: ~
+        postal-code: 71309
+        country: Vietnam
     attributes:
-        corresponding: true
+      corresponding: true
     note: "Student ID: BTBTWE24036"
 
-  - name: Author 2
-    email: "a2@student.hcmiu.edu.vn"
+  - name: Nguyen Hoang Tuong Vy
+    email: "BTBTIU24133@student.hcmiu.edu.vn"
     affiliations:
-        - id: international-uni
+      - id: international-uni
     note: ~
 
-  - name: Author 3
-    email: "a3@student.hcmiu.edu.vn"
+  - name: Nguyen Vy Van
+    email: "BTBTIU24126@student.hcmiu.edu.vn"
     affiliations:
-        - id: international-uni
+      - id: international-uni
     note: ~
 
-  - name: Author 4
-    email: "a4@student.hcmiu.edu.vn"
+  - name: Nguyen Le Ngoc Vy
+    email: "BTBTIU24131@student.hcmiu.edu.vn"
     affiliations:
-        - id: international-uni
+      - id: international-uni
     note: ~
-    
-  - name: Author 5
-    email: "a5@student.hcmiu.edu.vn"
+
+  - name: Nguyen Hoang Quynh Anh
+    email: "BTBTIU24007@student.hcmiu.edu.vn"
     affiliations:
-        - id: international-uni
+      - id: international-uni
     note: ~
 
 abstract: |
@@ -64,6 +64,9 @@ format:
       cite-style: number
       # cite-style: super # Not supported by `citeproc`
     # csl: elsevier-vancouver.csl
+crossref:
+  fig-title: "Fig." # Controls the prefix used in the caption (“Fig. 1. Caption…”)
+  fig-prefix: "Fig." # Controls the prefix used by cross-references (“see Fig. 1”)
 ---
 
 ```{=html}
@@ -96,27 +99,41 @@ This section examines the all-encompassing influence of pathogenic microbes on h
 
 ## The Black Death and *Yersinia pestis*
 
-The Black Death, a devastating pandemic caused by the bacterium *Y. pestis* that peaked between 1346 and 1353, serves as a primary example of microbial impact on human history. The disease is believed to have traveled along the Silk Road from Central Asia to Europe, facilitated by the expansion of trade routes and the movement of armies [@BlackDeathPlague2025; @spyrouSourceBlackDeath2022]. Upon reaching Europe, the plague caused a demographic collapse of unprecedented scale, killing an estimated 50% of the population in affected regions of Europe and Asia [@BlackDeathEuropean; @aberthBrinkApocalypseConfronting2013]
+The Black Death, a devastating pandemic caused by the bacterium *Y. pestis* that peaked between 1346 and 1353, serves as a primary example of microbial impact on human history. The disease is believed to have traveled along the Silk Road from Central Asia to Europe, facilitated by the expansion of trade routes and the movement of armies [@BlackDeathPlague2025; @spyrouSourceBlackDeath2022]. Upon reaching Europe, the plague caused a demographic collapse of unprecedented scale, killing an estimated $50\%$ of the population in affected regions of Europe and Asia [@BlackDeathEuropean; @aberthBrinkApocalypseConfronting2013].
 
 The massive loss of life triggered profound societal and economic shifts. The sudden scarcity of labor empowered the surviving peasantry, which led to the decline of the feudal system as workers demanded higher wages and better conditions [@DecameronWebPlague; @LaborShortagesAlter]. The psychological trauma of the pandemic also reshaped religious and social attitudes, manifesting in extreme movements such as the flagellants and the persecution of minority groups [@markReligiousResponsesBlack2020; @zentnerBlackDeathIts].
 
-The causative agent of the plague is the bacterium *Yersinia pestis*. The transmission cycle historically involved the black rat (*Rattus rattus*) and the rat flea (*Xenopsylla cheopis*) [@eisenEarlyPhaseTransmissionYersinia2007]. When the flea bites an infected host, the bacteria block the flea's digestive tract, causing it to regurgitate the pathogen into the bloodstream of a new host during subsequent feeding attempts [@hinnebuschComparativeAbilityOropsylla2017]. While bubonic plague was the most common form, the pneumonic form allowed for direct person-to-person transmission—thereby accelerating the spread [@earnAccelerationPlagueOutbreaks2020; @Plague].
+The causative agent of the plague is the bacterium *Yersinia pestis*. The transmission cycle historically involved the black rat (*Rattus rattus*) and the rat flea (*Xenopsylla cheopis*) [@eisenEarlyPhaseTransmissionYersinia2007]. When the flea bites an infected host, the bacteria block the flea's digestive tract, causing it to regurgitate the pathogen into the bloodstream of a new host during subsequent feeding attempts [@hinnebuschComparativeAbilityOropsylla2017]. While bubonic plague was the most common form, the pneumonic form allowed for direct person-to-person transmission—thereby accelerating the spread [@earnAccelerationPlagueOutbreaks2020; @Plague]. Fig. \ref{fig:black-death-transmission} demonstrates in detail how the plague is spread.
 
-## Smallpox and Global Eradication
-
-Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a turpis vel dolor mattis tincidunt vel ac tortor.
+\begin{figure*}[htb]
+    \centering
+    \includegraphics[width=\textwidth]{photos/black_death_transmission.png}
+    \caption{Mechanisms of Plague (\textit{Y. pestis}) Transmission and Disease Progression. The cycle begins with (1) the Flea Life Cycle: Eggs, laid in moist soil/burrows, hatch into larvae that feed on rodent feces and develop into pupae and adult fleas. Infected adult fleas parasitize rodents. (2) The Enzootic Cycle maintains \textit{Y. pestis} among rodent hosts and reservoirs, primarily vectored by fleas (\textit{X. cheopis}, \textit{X. brasiliensis}, and \textit{S. fonquerniei}). (3, 4) Epizootic Spills occur when fleas infect non-host mammals, which often lack resistance, rapidly succumb to the disease, and spread the plague geographically. (5) Human Zoonotic Transmission: Humans are typically infected via the bite of an infected flea from a rodent or secondary mammal host. (6) Human-to-Human Spread: Bubonic plague may progress to a highly contagious pneumonic plague via lung infection, enabling \textit{Y. pestis} transmission through infectious respiratory droplets generated by coughing. Reproduced from Mackay-Alderson J, Quastel M, Wilson E, Bellamy D \cite{mackay-aldersonFactorsInfluencingReemergence2020}.}
+    \label{fig:black-death-transmission}
+\end{figure*}
 
 # Famous Microbiologists and Groundbreaking Discoveries
 
-Donec ut dolor in massa auctor egestas. Nam eu massa. Sed convallis tristique sem. Proin ut ligula non magna fermentum. In a enim. Suspendisse sagittis. Fusce nec tellus sed augue semper porta. Mauris massa.
+This section highlights the contributions of three pivotal figures whose work transitioned medicine from superstition to the scientific germ theory of disease.
 
 ## Louis Pasteur: The Father of Modern Microbiology
 
-Sed hendrerit diam diam, ac dapibus nisl volutpat vitae. Aliquam bibendum varius libero, eu efficitur justo rutrum at. Sed at tempus elit. Nullam accumsan ipsum sit amet dui. Integer id odio.
+### Germ Theory
+Louis Pasteur, a French chemist, fundamentally changed the understanding of biology by disproving the theory of spontaneous generation. Through his elegant experiments using swan-necked flasks, he demonstrated that microorganisms in the air, not a "vital force," caused contamination in sterile broth [@LouisPasteurMicrobiology2025]. @fig-swan-necked shows the setup of this experiment. Pasteur's work laid the foundation for the germ theory of disease, which establishes that specific invisible microbes are responsible for specific illnesses [@LouisPasteurGerm].
+
+![Pasteur’s swan-necked flask experiment illustrating how airborne microorganisms, rather than a “vital force,” contaminate sterile broth. Reproduced from Shutterstock @PasteurTheorieFuerLebensbeginn.](photos/swan-necked-experiment.jpg){#fig-swan-necked fig-env="figure*"}
+
+### Pasteurization
+In addition to establishing the germ theory, Pasteur applied his knowledge of fermentation to solve problems in the French wine and silk industries. He discovered that heating liquids to a specific temperature ($60–90^{\circ}\text{C}$) killed the bacteria responsible for spoilage without destroying the product. This process, known as pasteurization, revolutionized food safety and is still widely used today for milk and other beverages [@PasteurizationDefinitionProcess2025]
+
+### Vaccine Development
+Pasteur also pioneered the development of laboratory-attenuated vaccines. He created vaccines for chicken cholera and anthrax by using weakened strains of the bacteria [@smithLouisPasteurFather2012]. His most famous medical achievement was the development of the rabies vaccine in 1885, which he successfully used to save the life of Joseph Meister, a boy bitten by a rabid dog [@repiquetMethodePasteurPour1891; @rappuoli1885FirstRabies2014].
 
 ## Alexander Fleming: The Serendipitous Discovery
 
-Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus in erat ut urna cursus vestibulum. Morbi in dui quis est pulvinar ullamcorper. Vivamus sed dictum magna.
+### Discovery of Penicillin
+
+
 
 ## Robert Koch and Koch's Postulates
 
