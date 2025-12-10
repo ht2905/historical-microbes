@@ -90,3 +90,5 @@ elsevier-vancouver.csl
 !preamble.tex
 /.quarto/
 .Rproj.user
+
+!historical_microbes.pdf
