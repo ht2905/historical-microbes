@@ -1,6 +1,6 @@
 ---
-title: Short Paper
-subtitle: Subtitle
+title: "Microbes as Agents of Change: Historical, Cultural, and Astrobiological Perspectives"
+# subtitle: Subtitle
 author:
   - name: Tran Quoc Hoang
     email: tranquochoang@protonmail.com
@@ -91,21 +91,25 @@ library(ragg)
 
 # Introduction
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+Microbes are among the most abundant and influential life forms on Earth, contributing substantially to planetary biomass and shaping ecosystems at every level despite their microscopic size. Throughout history, microorganisms have reshaped human societies, influenced cultural practices, and catalyzed scientific breakthroughs that redefine modern life. From pandemics that altered civilizations to extremophiles that challenge our understanding of life’s limits, microbes exhibit a level of ubiquity and power that is both surprising and foundational. Microbiology, the scientific discipline devoted to the study of microorganisms, reveals the extraordinary breadth of microbial influence across both natural and human systems. As such, microbes are not simply sources of disease, but powerful drivers of historical change, cultural production, and emerging scientific frontiers such as astrobiology. Their largely unseen impact spans multiple disciplines and eras, highlighting the deep interconnectedness between microbial life and human advancement.
+
+This paper is organized into four principal sections to examine these multidimensional contributions of microorganisms. The first explores microbes that changed history by analyzing the social and medical consequences of pandemics such as smallpox and the Black Death. The second focuses on pioneering microbiologists whose discoveries transformed science and medicine, including Pasteur, Koch, and Fleming. The third investigates microbial influence in art and culture, with emphasis on bacterial art and natural dye production. The final section extends the discussion beyond Earth, examining extremophiles, microbial survival under space-like conditions, and their implications for astrobiology.
+
+Rather than treating microbes as passive background conditions to which humans merely respond, this paper argues that microorganisms function as active agents of change—entities whose biological properties constrain, redirect, and at times override human intentions across history, culture, and science. By shaping demographic collapse, enabling new artistic media, and redefining planetary habitability, microbes do not simply influence human systems; they participate in them. Viewing microbes as agents rather than environmental noise clarifies why they repeatedly reorganize social structures, cultural meaning, and scientific definitions of life itself.
 
 # Microbes that Changed History
 
-This section examines the all-encompassing influence of pathogenic microbes on human civilization, focusing on two specific agents that altered demographic, economic, and social structures globally.
+This section examines the all-encompassing influence of pathogenic microbes on human civilization, focusing on two specific agents that altered demographic, economic, and social structures globally. Rather than acting as passive causes of disease, these microorganisms functioned as active historical forces, reshaping political systems, economic structures, and patterns of human belief on a global scale.
 
 ## The Black Death and *Yersinia pestis*
 
-The Black Death, a devastating pandemic caused by the bacterium *Y. pestis* that peaked between 1346 and 1353, serves as a primary example of microbial impact on human history. The disease is believed to have traveled along the Silk Road from Central Asia to Europe, facilitated by the expansion of trade routes and the movement of armies [@BlackDeathPlague2025; @spyrouSourceBlackDeath2022]. Upon reaching Europe, the plague caused a demographic collapse of unprecedented scale, killing an estimated $50\%$ of the population in affected regions of Europe and Asia [@BlackDeathEuropean; @aberthBrinkApocalypseConfronting2013].
+The Black Death, a devastating pandemic caused by the bacterium *Y. pestis* that peaked between 1346 and 1353, serves as a primary example of microbial impact on human history. The disease is believed to have traveled along the Silk Road from Central Asia to Europe, facilitated by the expansion of trade routes and the movement of armies [@BlackDeathPlague2025; @spyrouSourceBlackDeath2022]. Upon reaching Europe, the plague caused a demographic collapse of unprecedented scale, claiming an estimated $50\%$ of the population in affected regions of Europe and Asia [@BlackDeathEuropean; @aberthBrinkApocalypseConfronting2013].
 
-The massive loss of life triggered profound societal and economic shifts. The sudden scarcity of labor empowered the surviving peasantry, which led to the decline of the feudal system as workers demanded higher wages and better conditions [@DecameronWebPlague; @LaborShortagesAlter]. The psychological trauma of the pandemic also reshaped religious and social attitudes, manifesting in extreme movements such as the flagellants and the persecution of minority groups [@markReligiousResponsesBlack2020; @zentnerBlackDeathIts].
+The massive loss of life triggered profound societal and economic shifts. The sudden scarcity of labor empowered the surviving peasantry, which led to the decline of the feudal system as workers demanded higher wages and better conditions [@DecameronWebPlague; @LaborShortagesAlter]. The psychological trauma of the pandemic also reshaped religious and social attitudes, manifesting in extreme movements such as the flagellants and the persecution of minority groups [@markReligiousResponsesBlack2020; @zentnerBlackDeathIts]. In this sense, *Yersinia pestis* acted not merely as a pathogen, but as a catalyst for systemic change, accelerating social transformations that might otherwise have taken centuries.
 
-The causative agent of the plague is the bacterium *Yersinia pestis*. The transmission cycle historically involved the black rat (*Rattus rattus*) and the rat flea (*Xenopsylla cheopis*) [@eisenEarlyPhaseTransmissionYersinia2007]. When the flea bites an infected host, the bacteria block the flea's digestive tract, causing it to regurgitate the pathogen into the bloodstream of a new host during subsequent feeding attempts [@hinnebuschComparativeAbilityOropsylla2017]. While bubonic plague was the most common form, the pneumonic form allowed for direct person-to-person transmission—thereby accelerating the spread [@earnAccelerationPlagueOutbreaks2020; @Plague]. Fig. \ref{fig:black-death-transmission} demonstrates in detail how the plague is spread.
+The transmission cycle of *Y. pestis* historically involved the black rat (*Rattus rattus*) and the rat flea (*Xenopsylla cheopis*) [@eisenEarlyPhaseTransmissionYersinia2007]. After feeding on an infected host, Y. pestis blocks the flea’s gut, causing regurgitation of the bacteria into new hosts during later bites [@hinnebuschComparativeAbilityOropsylla2017]. While bubonic plague was the most common form, the pneumonic form allowed for direct person-to-person transmission—thereby accelerating the spread [@earnAccelerationPlagueOutbreaks2020; @Plague]. Fig. \ref{fig:black-death-transmission} provides a visualized diagram of the transmission pathway. The biological characteristics of *Y. pestis*—meaning its zoonotic reservoir, vector-based transmission, and capacity for airborne spread—directly determined the speed, scale, and severity of its historical impact.
 
-\begin{figure*}[!htb]
+\begin{figure*}[htb]
     \centering
     \includegraphics[width=\textwidth]{photos/black_death_transmission.png}
     \caption{Mechanisms of Plague (\textit{Y. pestis}) Transmission and Disease Progression. The cycle begins with (1) the Flea Life Cycle: Eggs, laid in moist soil/burrows, hatch into larvae that feed on rodent feces and develop into pupae and adult fleas. Infected adult fleas parasitize rodents. (2) The Enzootic Cycle maintains \textit{Y. pestis} among rodent hosts and reservoirs, primarily vectored by fleas (\textit{X. cheopis}, \textit{X. brasiliensis}, and \textit{S. fonquerniei}). (3, 4) Epizootic Spills occur when fleas infect non-host mammals, which often lack resistance, rapidly succumb to the disease, and spread the plague geographically. (5) Human Zoonotic Transmission: Humans are typically infected via the bite of an infected flea from a rodent or secondary mammal host. (6) Human-to-Human Spread: Bubonic plague may progress to a highly contagious pneumonic plague via lung infection, enabling \textit{Y. pestis} transmission through infectious respiratory droplets generated by coughing. Reproduced from Mackay-Alderson J, Quastel M, Wilson E, Bellamy D \cite{mackay-aldersonFactorsInfluencingReemergence2020}.}
@@ -114,21 +118,23 @@ The causative agent of the plague is the bacterium *Yersinia pestis*. The transm
 
 ## Smallpox and Global Eradication
 
-Shifting focus to another microbial agent that fundamentally altered human history: Smallpox. Caused by the *Variola major* virus and carrying a fatality rate $\approx 30\%$, the disease played a decisive role in the colonization of the Americas. Following the arrival of Europeans, smallpox decimated indigenous populations, such as the Aztecs and Incas, who possessed no prior immunity [@pattersonSmallpoxNativeAmerican2002]. This "virgin soil" epidemic killed tens of millions—perhaps up to $95\%$ of the indigenous population of the Americas—far exceeding deaths caused by warfare and facilitating the collapse of indigenous empires [@marrNewHypothesisCause2010; @legnaghidealmeidaMicroscopicSettlerSmallpox2025]. Due to a lack of reliable data, historians continue to debate the true mortality rates and extent of casualties.
+Shifting focus to another microbial agent that fundamentally altered human history: Smallpox. Caused by the *Variola major* virus and carrying a fatality rate of $\approx 30\%$, the disease played a decisive role in the colonization of the Americas. Following the arrival of Europeans, smallpox decimated indigenous populations, such as the Aztecs and Incas, who lacked prior immunity [@pattersonSmallpoxNativeAmerican2002]. This "virgin soil" epidemic killed tens of millions—perhaps up to $95\%$ of the indigenous population of the Americas—far exceeding the deaths caused by warfare and facilitating the collapse of indigenous empires [@marrNewHypothesisCause2010; @legnaghidealmeidaMicroscopicSettlerSmallpox2025].
 
-The fight against smallpox marked the birth of immunology. In 1796, Edward Jenner observed that milkmaids who contracted cowpox, a mild disease, were immune to smallpox. He tested this hypothesis by inoculating a young boy with material from a cowpox lesion and subsequently exposing him to smallpox; the boy remained healthy [@riedelSmallpoxBiologicalWarfare2005; @barquetSmallpoxTriumphMost1997]. Jenner’s work established the principle of vaccination, a term derived from *vacca* (Latin for cow), replacing the riskier practice of variolatio, an earlier technique that intentionally induced a mild smallpox infection to confer immunity [@vaishaliEdwardJennerPioneer2024].
+The fight against smallpox marked the birth of immunology. In 1796, Edward Jenner observed that milkmaids who contracted cowpox (a mild disease) were immune to smallpox. He tested this hypothesis by inoculating a young boy with material from a cowpox lesion and subsequently exposing him to smallpox; the boy remained healthy [@riedelSmallpoxBiologicalWarfare2005; @barquetSmallpoxTriumphMost1997]. Jenner’s work established the principle of vaccination, a term derived from *vacca* (Latin for cow), replacing the riskier practice of variolatio, an earlier technique that intentionally induced a mild smallpox infection to confer immunity [@vaishaliEdwardJennerPioneer2024].
 
-Smallpox holds the distinction of being the first and only human infectious disease to be eradicated. Following a massive global campaign by the World Health Organization (WHO) involving vaccination, surveillance, and quarantine, the disease was declared eradicated in 1980 [@Smallpox; @simonsenSmallpox2025]. This achievement stands as one of the greatest triumphs of public health and microbiology.
+Smallpox holds the distinction of being the first and only human infectious disease to be eradicated. Following a massive global campaign by the World Health Organization (WHO) involving vaccination, surveillance, and quarantine, the disease was declared eradicated in 1980 [@Smallpox; @simonsenSmallpox2025]. As such, the disease marks a turning point in human–microbe relations, where scientific understanding allowed humans not to eliminate microbial influence, but to strategically counter it.
+
+Together, the Black Death and smallpox demonstrate that microbial impact is not limited to mortality statistics but extends to structural reorganization of societies. In both cases, the biological features of the pathogen—mode of transmission, immunity dynamics, and host susceptibility—directly shaped political power, labor systems, and colonial outcomes. These outcomes were not accidental side effects of disease but emergent properties of microbial life interacting with human networks. In this sense, microbes acted less like external shocks and more like historical actors whose constraints forced new social equilibria.
 
 # Famous Microbiologists and Groundbreaking Discoveries
 
-This section highlights the contributions of three pivotal figures whose work transitioned medicine from superstition to the scientific germ theory of disease.
+This section examines how key microbiologists transformed microbes from invisible forces of fate into identifiable, controllable agents—thereby reshaping history, medicine, and society.
 
-## Louis Pasteur: The Father of Modern Microbiology
+## Louis Pasteur: A Core Founder of Modern Microbiology
 
 ### Germ Theory
 
-Louis Pasteur, a French chemist, fundamentally changed the understanding of biology by disproving the theory of spontaneous generation. Through his elegant experiments using swan-necked flasks, he demonstrated that microorganisms in the air, not a "vital force," caused contamination in sterile broth [@LouisPasteurMicrobiology2025]. Fig. \ref{fig:swan-necked} shows the setup of this experiment. Pasteur's work laid the foundation for the germ theory of disease, which establishes that specific invisible microbes are responsible for specific illnesses [@LouisPasteurGerm].
+Louis Pasteur, a French chemist, fundamentally changed the understanding of biology by disproving the theory of spontaneous generation. Through his elegant experiments using swan-necked flasks, he demonstrated that microorganisms in the air, not a "vital force," were the cause of contamination in sterile broth [@LouisPasteurMicrobiology2025; see Fig. \ref{fig:swan-necked}]. Pasteur's work laid the foundation for the germ theory of disease, which establishes that specific invisible microbes are responsible for specific illnesses [@LouisPasteurGerm].
 
 ### Pasteurization
 In addition to establishing the germ theory, Pasteur applied his knowledge of fermentation to solve problems in the French wine and silk industries. He discovered that heating liquids to a specific temperature ($60–90^{\circ}\text{C}$) killed the bacteria responsible for spoilage without destroying the product. This process, known as pasteurization, revolutionized food safety and is still widely used today for milk and other beverages [@PasteurizationDefinitionProcess2025].
@@ -151,32 +157,27 @@ Fleming identified the mold's active substance as penicillin. Although mass prod
 
 ### Methodological Rigor
 
-Robert Koch, a German physician, is often considered the father of medical bacteriology alongside Pasteur. He introduced rigorous scientific methods to the field, most notably "Koch's Postulates." This set of four criteria is used to establish a causal relationship between a specific microbe and a specific disease: (1) the microbe must be present in every case of the disease; (2) it must be isolated and grown in pure culture; (3) inoculation of the culture into a healthy host must reproduce the disease; and (4) the microbe must be recovered again from the experimentally infected host [@segreWhatDoesIt2013; @walkerKochsPostulatesInfectious2006].
+Robert Koch, a German physician, is often regarded as one of the founders of medical microbiology alongside Pasteur. He introduced rigorous scientific methods to the field, most notably "Koch's Postulates." This set of four criteria is used to establish a causal relationship between a specific microbe and a specific disease: (1) the microbe must be present in every case of the disease; (2) it must be isolated and grown in pure culture; (3) inoculation of the culture into a healthy host must reproduce the disease; and (4) the microbe must be recovered again from the experimentally infected host [@segreWhatDoesIt2013; @walkerKochsPostulatesInfectious2006].
 
 ### Key Discoveries
 
-Using these methods, Koch identified the specific causative agents of several deadly diseases, including *Bacillus anthracis* (anthrax), *Vibrio cholerae* (cholera), and *Mycobacterium tuberculosis* (tuberculosis) [@kochAetiologieMilzbrandKrankheitBegruendet2010; @UeberAugenblicklichenStand; @gesundheitsamtMittheilungenAusKaiserlichen1884]. His work provided the definitive proof for the germ theory of disease and established the standards for diagnostic microbiology [@tyagiTimelessLegacyRobert2006].
+Using these methods, Koch identified the specific causative agents of several deadly diseases, including *Bacillus anthracis* (anthrax), *Vibrio cholerae* (cholera), and *Mycobacterium tuberculosis* (tuberculosis) [@kochAetiologieMilzbrandKrankheitBegruendet2010; @UeberAugenblicklichenStand; @gesundheitsamtMittheilungenAusKaiserlichen1884]. His work provided the definitive proof for the germ theory of disease and established the standards for diagnostic microbiology [@tyagiTimelessLegacyRobert2006]. While foundational, Koch’s Postulates are limited when applied to viruses, unculturable organisms, and polymicrobial diseases.
+
+While Pasteur, Koch, and Fleming are often presented as isolated geniuses, their collective impact lies in how they transformed microbes from invisible fate into governable entities. Germ theory reframed illness as a biological interaction, antibiotics redefined survivability, and laboratory standards stabilized microbial knowledge across institutions. The rise of antibiotic resistance illustrates that microbial evolution continues to negotiate, resist, and sometimes overturn human control, reinforcing the argument that microbes remain active participants rather than solved problems.
 
 # Microbes in Art and Culture
 
-This section explores the scientific mechanisms underlying microbial involvement in aesthetic and cultural domains, focusing on bacterial pigment production as a medium for art and the role of fungi and yeasts in pigmentation for textiles and sustainable dyes.
+This section explores the scientific mechanisms underlying microbial involvement in aesthetic and cultural domains, focusing on bacterial pigment production as a medium for art and the role of fungi and yeasts in creating sustainable dyes for textiles.
 
 ## Bacterial Art (Agar Art/Bio-Painting)
 
 Bacterial art is a form of art resulting from the special combination of microbiology with the power of visual expression by utilizing the Petri dish as a living canvas. This form of art relies entirely on the underlying biological mechanisms by which certain bacterial species synthesize brightly colored pigments [@charkoudianLivingColorBacterial2010].
 
-The medium consists of nutrient-rich agar plates, where different bacterial strains are inoculated and cultured to grow into intricate images. The colors are generated by chromogenic bacterial secondary metabolites produced through distinct metabolic and biosynthetic pathways [source: @choiBiotechnologicalActivitiesApplications2021]. The strong and visible colors of these pigments make it easier for scientists and artists to isolate and identify the strains that produce the compounds in sufficient amounts.
+The medium consists of nutrient-rich agar plates, where different bacterial strains are inoculated and cultured to grow into intricate images. Vibrant colors are generated by chromogenic bacterial secondary metabolites produced through distinct metabolic and biosynthetic pathways, which makes it easier for scientists and artists to isolate and identify the strains that produce the compounds in sufficient amount [@choiBiotechnologicalActivitiesApplications2021].
 
-Two examples of bacterial species employed in bio-painting are widely studied for their distinctive pigment production. The first is *Serratia marcescens*, a Gram-negative bacterium that is also a producer of prodigiosin. Prodigiosin is a red pigment belonging to the prodiginine group, characterized by a tripyrrole chemical structure, and has been successfully used in textile coloring processes [@tuliMicrobialPigmentsNatural2014]. The second example is *Chromobacterium violaceum*. This strain produces violacein, a distinctive bisindole-violet or blue pigment [@keerthanaMicrobialPigmentsTypes2025]. Violacein and prodigiosin are well-known hydrophobic bacterial chromogenic pigments, and these two are responsible for the purple and red color phenotype of the bacterial strain. Fig. \ref{fig:bac-art-structure} shows the chemical structure and the colored phenotypes of the bacterial strains that produce these compounds.
+Two bacterial species employed in bio-painting are widely studied for their distinctive pigment production. The first is *Serratia marcescens*, a Gram-negative bacterium that is also a producer of prodigiosin. Prodigiosin is a red pigment belonging to the prodiginine group, characterized by a tripyrrole chemical structure, and has been successfully used in textile coloring processes [@tuliMicrobialPigmentsNatural2014]. The second example is *Chromobacterium violaceum*. This strain produces violacein, a distinctive bisindole-violet or blue pigment [@keerthanaMicrobialPigmentsTypes2025]. Violacein and prodigiosin are well-known hydrophobic bacterial chromogenic pigments, and these two are responsible for the purple and red color phenotype of the bacterial strain. Fig. \ref{fig:bac-art-structure} shows the chemical structure and the colored phenotypes of the bacterial strains that produce these compounds.
 
-\begin{figure*}[!htb]
-    \centering
-    \includegraphics[width=\textwidth]{photos/bac_art_structure.jpg}
-    \caption{Chemical structures of the bacterial pigments violacein (produced by \textit{Chromobacterium violaceum}) and prodigiosin (produced by \textit{Serratia marcescens}), shown alongside the respective colored phenotypes of the producing bacterial strains. Reproduced from Choi SY, Lim S, Yoon K, Lee JI, Mitchell RJ \cite{choiBiotechnologicalActivitiesApplications2021}.}
-    \label{fig:bac-art-structure}
-\end{figure*}
-
-By integrating microbiological techniques with the principles of aesthetic design, bacterial art blurs the traditional boundaries between science and art. Fig. \ref{fig:colored-microbes} shows the representation of  various colors producing microorganisms on a Petri plate. Fig. \ref{fig:living-agar-art} shows agar art from living microbes. Those are examples of colorful bacteria applied to agar in an artistic manner (A-C) ASM Agar Art Contest winners.
+By integrating microbiological techniques with the principles of aesthetic design, bacterial art blurs the traditional boundaries between science and art. Fig. \ref{fig:colored-microbes} shows the representation of various colors producing microorganisms on a Petri plate. Fig. \ref{fig:living-agar-art} shows agar art from living microbes. Those are examples of colorful bacteria applied to agar in an artistic manner (A-C) ASM Agar Art Contest winners.
 
 \begin{figure}[htb]
     \centering
@@ -185,69 +186,125 @@ By integrating microbiological techniques with the principles of aesthetic desig
     \label{fig:colored-microbes}
 \end{figure}
 
-Fig. \ref{fig:first-race} shows The 2016 American Society for Microbiology Agar Art Contest winner, The First Race, illustrated fertilization using four pigment-producing bacterial species grown on selective agar. Created by Md Zohorul Islam (University of Copenhagen), the artwork used Staphylococcus aureus (red), S. xylosus (green), S. hyicus (white), and Corynebacterium glutamicum (yellow), with additional hues produced by mixing these microbes.
+\begin{figure*}[htb]
+    \centering
+    \includegraphics[width=17.5cm]{photos/living_agar_art.jpg}
+    \caption{Examples of Agar Art from Living Microbes. Panels (A-C) display winning entries from the ASM Agar Art Contest. (A) "Cell to cell" (2015) using yellow \textit{Nesterenkonia}, orange \textit{Deinococcus}, and \textit{Sphingomonas}. (B) "Neurons" (2015) using red \textit{Serratia}, yellow \textit{Nesterenkonia}, orange \textit{Deinococcus}, and \textit{Sphingomonas}. (C) "Sustenance" (2018): (Top) pink colonies, orange \textit{Nesterenkonia}, and \textit{Deinococcus radiodurans}. (Bottom) Dark-violet recombinant \textit{E. coli} (violacein pathway), red \textit{Serratia marcescens}, and white \textit{Bacillus}. (D) "Remainders": microbial paintings on food-colored agar plugs. (E) "Boston skyline" (2019): sculpted and collaged agar and bacteria. (F) "Bacillus surprise": dark-violet recombinant \textit{E. coli} and white \textit{Bacillus}. (G) A palette of colored recombinant yeast (\textit{Saccharomyces cerevisiae}) expressing chromogenic proteins (black/grey/purple from violacein, blue from anemone gene, pink from RFP, and various yellows/oranges from beta-carotene). (H) "Puzzle Pieces" (2017) and (I) "Sunset at the End" (2016): patterns printed using engineered \textit{S. cerevisiae}. Reproduced from Frankel E, Temple J, Dikener E, Berkmen M \cite{frankelBridgingGapBacterial2023}.}
+    \label{fig:living-agar-art}
+\end{figure*}
+
+Fig. \ref{fig:first-race} shows The 2016 American Society for Microbiology Agar Art Contest winner, The First Race, illustrated fertilization using four pigment-producing bacterial species grown on selective agar. Created by Md Zohorul Islam (University of Copenhagen), the artwork used *Staphylococcus aureus* (red), *S. xylosus* (green), *S. hyicus* (white), and *Corynebacterium glutamicum* (yellow), with additional hues produced by mixing these microbes.
 
 ## Fungi in Pigmentation and Textiles
 
-The rapid development of greener approaches in industrial processes, such as textile dyeing, has been driven by the environmental concern of synthetic dyes [@gomesReviewBacterialPigments2023]. In this context, fungi have become a promising sources of natural pigments.
+The rapid development of greener approaches in industrial processes, such as textile dyeing, has been driven by the environmental concerns regarding synthetic dyes [@gomesReviewBacterialPigments2023]. In this context, fungi have become a promising sources of natural pigments.
 
-Fungi have shaped the history of natural dyes for centuries throughout history, with uses like ancient lichen dyes extracted from Roccella and Ochrolechia species for purples and violets. There were many traditional dyes made from lichens in the Scottish Highlands, including red dyes from the cudbear lichen (*Lecanoratartarea*), the common orange lichen (*Xanthoriaparietina*), and several species of leafy Parmelia lichens. During the 15th and 17th centuries, purple lichen dyes continued to play an important role in the European dyeing industry [@ratherLichenDerivedNatural2018]. And today, the traditional practices have evolved into modern bio-dyes via fermentation to serve the demand of today’s sustainable textile production demand [@paillie-jimenezNaturalPigmentsMicrobial2020].
+Fungi have shaped the history of natural dyes for centuries, with uses like ancient lichen dyes extracted from *Roccella* and *Ochrolechia* species for purples and violets. There were many traditional dyes made from lichens in the Scottish Highlands, including red dyes from the cudbear lichen (*Lecanora tartarea*), the common orange lichen (*Xanthoriaparietina*), and several species of leafy *Parmelia* lichens. During the 15th and 17th centuries, purple lichen dyes continued to play an important role in the European dyeing industry [@ratherLichenDerivedNatural2018]. And today, the traditional practices have evolved into modern bio-dyes via fermentation to serve the demand of today’s sustainable textile production [@paillie-jimenezNaturalPigmentsMicrobial2020].
 
 From an industrial perspective, most fungal pigments are water-soluble, making production and extraction relatively straightforward. They can be easily cultivated and scaled up in industrial fermentation systems and can be harvested without the need for organic solvents, enhancing their sustainability and environmental compatibility (see Fig. \ref{fig:fungi-scaling}). For reference, Table \ref{tab:industrial-pigments} shows List of fungal pigments produced on an industrial scale.
 
 \begin{figure*}[htb]
     \centering
-    \includegraphics[width=\textwidth]{photos/fungi_scaling.jpg}
+    \includegraphics[width=16cm]{photos/fungi_scaling.jpg}
     \caption{Scale-up process for pigment-producing fungi from laboratory culture to industrial fermentation. The process moves from initial isolation and growth in a Petri dish to larger-scale production. (A) Growth and visualization of pigmented fungi on solid agar medium (Petri dish). (B) Maintenance and preservation of the fungal strain for long-term use. (C) Scale-up of the culture in a liquid medium within a fermenter, which is a critical step for sustainable and high-volume industrial pigment production. Reproduced from Venil CK, Velmurugan P, Dufossé L, Renuka Devi P, Veera Ravi A \cite{venilFungalPigmentsPotential2020}.}
     \label{fig:fungi-scaling}
 \end{figure*}
 
-Fungal pigments cover a broad color spectrum, such as yellow, orange, red, purple, blue, brown, and black. Key producers are Monascus spp. (red, yellow, orange), Penicillium spp. (red, yellow, brown), Aspergillus spp. (yellow, brown), Fusarium spp. (pink, violet, red), and Blakeslea trispora (β-carotene) [@ratherLichenDerivedNatural2018]. Numerous fungal genera have demonstrated efficient pigment production [@linProductionFungalPigments2022].  For instance, Penicillium brevicompactum can produce a mixture of yellow, orange, and red pigments [@bastoProductionNaturalPigments2022]. While Penicillium purpurogenum generates red pigments with strong dyeing performance on fabrics such as wool, silk and polyester. Fig. \ref{fig:pp-pigments} shows 3 effect of red pigment produced by Penicillium purpurogenum application on different fabrics (wool, silk, polyester, viscose). Furthermore, different fungal species with their active pigment for application in the textile industry are shown in Fig. \ref{fig:fungi-struc}. Fungal pigments have demonstrated successful dyeing performance on a wide range of textile materials, including cotton, linen, silk, and several synthetic fibers [@kramarBacterialSecondaryMetabolites2022; @elkhateebWideRangeApplications2023].
+Fungal pigments cover a broad color spectrum, such as yellow, orange, red, purple, blue, brown, and black. Key producers are *Monascus* spp. (red, yellow, orange), *Penicillium* spp. (red, yellow, brown), *Aspergillus* spp. (yellow, brown), *Fusarium* spp. (pink, violet, red), and *Blakeslea trispora* (β-carotene) [@ratherLichenDerivedNatural2018]. Numerous fungal genera have demonstrated efficient pigment production [@linProductionFungalPigments2022].  For instance, *Penicillium brevicompactum* can produce a mixture of yellow, orange, and red pigments [@bastoProductionNaturalPigments2022] while *Penicillium purpurogenum* generates red pigments with strong dyeing performance on fabrics such as wool, silk and polyester. Fig. \ref{fig:pp-pigments} shows the effect of red pigment produced by *Penicillium purpurogenum* application on different fabrics (wool, silk, polyester, viscose). Furthermore, different fungal species with their active pigment for application in the textile industry are shown in Fig. \ref{fig:fungi-struc}. Fungal pigments have demonstrated successful dyeing performance on a wide range of textile materials, including cotton, linen, silk, and several synthetic fibers [@kramarBacterialSecondaryMetabolites2022; @elkhateebWideRangeApplications2023]. Table \ref{tab:textile-application} shows the fungal pigments and their application in the textile industry.
 
-\begin{figure}[!htb]
+\begin{figure}[htb]
     \centering
-    \includegraphics{photos/pp_pigments.png}
-    \caption{3 Effect of red pigment produced by \textit{Penicillium purpurogenum} application on different fabrics (wool, silk, polyester, viscose). Reproduced from Elkhateeb W, Elnahas M, Daba G \cite{elkhateebWideRangeApplications2023}.}
+    \includegraphics[width=7cm]{photos/pp_pigments.png}
+    \caption{Effect of red pigment produced by \textit{Penicillium purpurogenum} application on different fabrics (wool, silk, polyester, viscose). Reproduced from Elkhateeb W, Elnahas M, Daba G \cite{elkhateebWideRangeApplications2023}.}
     \label{fig:pp-pigments}
 \end{figure}
 
-## Microbes in Fiction and Media (Optional)
+\begin{table*}[htb]
+  \centering
+  \caption{Fungal pigments and their application in the textile industry}
+  \label{tab:textile-application}
+  \begin{tabular}{ p{0.28\textwidth} | p{0.18\textwidth} | p{0.18\textwidth} | p{0.28\textwidth} }
+    \textbf{Fungi} & \textbf{Pigment} & \textbf {Color} & \textbf {Fabrics} \\
+    \hline
+    \textit{Alternaria alternata} & Anthraquinones & Reddish-brown & Cotton \\
+    \textit{Penicillium Oxalium} & Anthraquinones & Arpink red & Wool \\
+    \textit{Chlorociboria aeruginosa} \newline \textit{Scytalidium cuboideum}  \newline \textit{Scytalidium ganodermophthorum} & Quinones & Green \newline Red \newline Yellow & Bleached cotton, spun polyacrylic, spun polyamide, spun polyester, worsted wool \\
+    \textit{Aspergillus} sp. & Quinones & Brown cotton & Silk, silk cotton \\
+    \textit{Acrostalagmus} (NRC 90) & Quinones & Brown & Wool \\
+    \textit{Alternaria alternata} (NRC17) & Quinones & Reddish-brown & Wool \\
+    \textit{Alternaria} sp. (NRC 97) & Quinones & Brown & Wool \\
+    \textit{Aspergillus niger} (NRC 95) & Quinones & Brown & Wool \\
+    \textit{Bisporomyces} sp. (NRC 63) & Quinones & Deep brown & Wool \\
+    \textit{Penicillium murcianum} & Cartenoids & Yellow & Wool \\
+    \textit{Talaromyces australis} & 2,4-Di-tert-butylphenol & Red & Cotton fabric \\
+    \textit{Phoma harbarum} & Magenta pigment & Magenta & Nylon \\
+    \textit{Talaromyces verruculosus} & Polyketide & Red & Cotton fabric \\
+    \textit{Monascus purpureus} & Rubropunctamine & Red & Wool \\
+  \end{tabular}
+  \vspace{1ex}
+  {\footnotesize\itshape
+    Note. Fungal pigments and their application in the textile industry. Adapted from Elkhateeb W, Elnahas M, Daba G \cite{elkhateebWideRangeApplications2023}.}
+\end{table*}
 
 # Bacteria in Space (Astromicrobiology)
 
-Astromicrobiology investigates how microorganisms such as bacteria and archaea to survive, adapt, and behave under the extreme physical and chemical conditions found beyond Earth. This is crucial because many of Earth’s microorganism, known as extremophiles already capable of thriving in hostile environments such as boiling hot springs, deep-sea hydrothermal vents, permafrost, acidic rivers, highly radioactive sites [@yokoyamaWhatAstroMicrobiology2018]. Their survival depend on their metabolisms and cellular structures evolved specifically for these extremes. Accurately simulating extraterrestrial ultraviolet (UV) radiation, which is significantly more intense and has a wider wavelength range than what reaches Earth's surface, is one of the main challenges in astromicrobiology [@horneckSpaceMicrobiology2010]. The solar UV spectrum cannot be completely replicated in space by even the most powerful artificial UV generators on Earth. Simulation studies are nevertheless useful in spite of this drawback. As an illustration of how extremophiles might take advantage of the chemical environment of other planets, the acidophilic bacteria Acidithiobacillus ferrooxidans was found to grow successfully in simulated Martian regolith, even without additional nutrients. In true space conditions, however, the most informative results come from orbital experiments such as the ADAPT study, which exposed genetically UV-resistant Bacillus subtilis spores to space radiation in Low Earth Orbit (LEO) [@moellerRolesSmallAcidsoluble2009].
+Astromicrobiology investigates how microorganisms such as bacteria and archaea survive, adapt, and behave under the extreme physical and chemical conditions found beyond Earth. These are known as extremophiles and include organisms adapted to extremes of temperature, pressure, radiation, salinity, and pH, inhabiting environments such as hydrothermal vents, permafrost, hypersaline lakes, and acidic waters [@yokoyamaWhatAstroMicrobiology2018]. Their survival depends on their metabolisms and cellular structures evolved specifically for these extremes. Accurately simulating extraterrestrial ultraviolet (UV) radiation, which is significantly more intense and has a wider wavelength range than that which reaches Earth's surface, is one of the main challenges in astromicrobiology [@horneckSpaceMicrobiology2010]. The solar UV spectrum cannot be completely replicated in space by even the most powerful artificial UV generators on Earth. Nevertheless, simulation studies are useful in spite of this drawback. As an illustration of how extremophiles might take advantage of the chemical environment of other planets, the acidophilic bacterium *Acidithiobacillus ferrooxidans* was found to grow successfully in simulated Martian regolith, even without additional nutrients. In true space conditions, however, the most informative results come from orbital experiments such as the ADAPT study, which exposed genetically UV-resistant *Bacillus subtilis* spores to space radiation in Low Earth Orbit (LEO) [@moellerRolesSmallAcidsoluble2009]. Fig.  \ref{fig:sankey-dia} provides an overview of the interconnected medical and microbiological challenges associated with spaceflight and long-term habitation of extraterrestrial environments, illustrating how microbial survival, human health, and planetary conditions are tightly linked. As such, this section argues that microbial survival in space fundamentally reshapes how we define habitability, contamination, and the origin of life.
 
 ## Extremophiles Defined
 
-Extremophiles are organisms, mostly bacteria and archaea, that not only survive but flourish in environments and conditions that were previously thought to be incompatible with life. The last point can be applied to a wide range of settings, including high pressure, temperature, pH, radiation, salinity, and nutrient availability, since they exist in severe habitats [@galloAdvancesExtremophileResearch2024]. Extremophiles offer crucial insights about the boundaries of life on Earth and assist scientists in determining the potential habitability of alien settings since they live in such harsh circumstances.
+Extremophiles are organisms, mostly bacteria and archaea, that not only survive but flourish in environments previously thought to be incompatible with life. This applies to a wide range of settings, including high pressure, temperature, pH, radiation, salinity, and nutrient availability, since they exist in severe habitats [@galloAdvancesExtremophileResearch2024]. Extremophiles offer crucial insights about the boundaries of life on Earth and assist scientists in determining the potential habitability of alien settings since they live in such harsh circumstances.
 
-Extreme settings can be either naturally occurring or man-made; these animals are just the result of evolution and the best adapted to their surroundings. Thousands of new species are found and named by scientists each year. Microorganisms have played a significant role in this massive expansion of species discoveries in recent years. Other terms that are used to categorize particular kinds of extremophiles include: Low pH acidophiles, high pH alkaliphiles, anaerobic extremophiles (anti-oxygen), cryophiles (thrive in cold temperatures), piezophiles (high pressure), psychrophiles (thrive in low temperatures), thermophiles (live in temperatures above $40 ^\circ \text{C}$), hyperthermophiles (above $80 ^\circ \text{C}$), xerophiles, methanogens, Toxitolerance Deep-sea hydrothermal vents, ice sheets and permafrost, volcanic systems and hot springs, salt pans and hypersaline lakes, and extremely acidic or alkaline waters are just a few examples of the various types of extreme conditions found in nature [@merinoLivingExtremesExtremophiles2019; @rekadwadExtremophilesSpeciesThat2023]. According to National Geographic, around 1.2 million species have been identified around the planet, but some experts speculate that 8,7 million or more may exist [@watson86PercentEarths2025].
-
-By surviving in such environments, extremophiles reveal the true boundaries of Earth-based life. This helps astrobiologists evaluate the potential habitability of extraterrestrial environments such as Mars, Europa, Enceladus, or exoplanets, and understand the biochemical strategies that life might use elsewhere. Extremophilic habitats may occur naturally (e.g., hydrothermal vents, volcanoes, permafrost) or be produced by human activity (industrial brines, highly acidic mining runoffs). Regardless of origin, extremophiles are the best-adapted products of evolution within these conditions [@MicrobiologyDefinitionHistory2025].
+Extreme settings can be either naturally occurring or man-made; these microbes are just the result of evolution and the best adapted to their surroundings. Thousands of new species are found and named by scientists each year. Microorganisms have played a significant role in this massive expansion of species discoveries in recent years. Other terms that are used to categorize particular kinds of extremophiles include: Low pH acidophiles, high pH alkaliphiles, anaerobic extremophiles (anti-oxygen), cryophiles (thrive in cold temperatures), piezophiles (high pressure), psychrophiles (thrive in low temperatures), thermophiles (live in temperatures above $40 ^\circ \text{C}$), hyperthermophiles (above $80 ^\circ \text{C}$), xerophiles, methanogens, Toxitolerance Deep-sea hydrothermal vents, ice sheets and permafrost, volcanic systems and hot springs, salt pans and hypersaline lakes, and extremely acidic or alkaline waters are just a few examples of the various types of extreme conditions found in nature [@merinoLivingExtremesExtremophiles2019; @rekadwadExtremophilesSpeciesThat2023]. The wide range of extreme habitats in which these organisms thrive is summarized in Fig. \ref{fig:ext-env-earth}, which illustrates the diversity and spatial distribution of extreme environments within Earth’s crust.
 
 \begin{figure*}[htb]
     \centering
     \includegraphics[width=\textwidth]{photos/ext_env_earth.jpg}
-    \caption{Representative idealized cross section of Earth’s crust showing the diversity of extreme environments and their approximate location. Reproduced from \cite{merinoLivingExtremesExtremophiles2019}.}
+    \caption{Representative idealized cross section of Earth’s crust showing the diversity of extreme environments and their approximate location. Reproduced from Merino et al. \cite{merinoLivingExtremesExtremophiles2019}.}
     \label{fig:ext-env-earth}
 \end{figure*}
 
+By surviving in such environments, extremophiles reveal the true boundaries of Earth-based life. This helps astrobiologists evaluate the potential habitability of extraterrestrial environments such as Mars, Europa, Enceladus, or exoplanets, and understand the biochemical strategies that life might use elsewhere. Extremophilic habitats may occur naturally (e.g., hydrothermal vents, volcanoes, permafrost) or be produced by human activity (industrial brines, highly acidic mining runoffs). Regardless of origin, extremophiles are the best-adapted products of evolution within these conditions [@MicrobiologyDefinitionHistory2025].
+
 ## Survival on the International Space Station (ISS)
 
-In the space experiment “ Molecular adaption strategies of microorganisms to different space and planetary UV climate conditions” (ADAPT), bacterial endospores of the highly UV-resistant Bacillus subtilis strain MW01 were exposed to low-Earth orbit (LEO) and simulated martian surface conditions for 559 days on board the European Space Agency’s exposure facility EXPOSE-E, mounted outside the International Space Station. These facilities allow biological samples to be exposed directly to Space vacuum, Full-spectrum solar UV radiation (>110 nm), Cosmic ionizing radiation, Rapid temperature cycling, Simulated Martian surface conditions [@rabbowEXPOSEEESAAstrobiology2012].
+In the space experiment "Molecular adaption strategies of microorganisms to different space and planetary UV climate conditions" (ADAPT), bacterial endospores of the highly UV-resistant *Bacillus subtilis* strain MW01 were exposed for 559 days on the ESA EXPOSE-E facility mounted outside the ISS. These facilities allow biological samples to be exposed directly to Space vacuum, Full-spectrum solar UV radiation ($>110~\text{nm}$), Cosmic ionizing radiation, Rapid temperature cycling, Simulated Martian surface conditions [@rabbowEXPOSEEESAAstrobiology2012]. The experimental configuration of the EXPOSE-E facility and the placement of the ADAPT samples on the exterior of the ISS are shown in Fig. \ref{fig:expose-e}.
 
-One of the main goals of Mars exploration space missions is to find organic compounds on the planet's surface. Therefore, comprehending the preservation of organic matter in the Martian environment is a crucial step in interpreting future data obtained by these missions. The organic substances (glycine, serine, phthalic acid, phthalic acid in the presence of a mineral phase, and mellitic acid) completely degraded after a 1.5 year exposure to Mars-like surface UV radiation conditions in space. Under Martian surface conditions, their half-lives ranged from 50 to 150 hours. Amino acids and a dipeptide in pure form and embedded in meteorite powder were exposed to space conditions for eighteen months in order to study the chemical behavior of organic molecules in the space environment. The samples were then brought back to Earth and examined in a lab for reactions brought on by solar UV and cosmic radiation [@wassmannSurvivalSporesUVResistant2012].
+One of the main goals of Mars exploration missions is to find organic compounds on the planet's surface. Therefore, comprehending the preservation of organic matter in the Martian environment is a crucial step in interpreting interpreting data to be obtained in the future. The organic substances (glycine, serine, phthalic acid, phthalic acid in the presence of a mineral phase, and mellitic acid) completely degraded after a 1.5-year exposure to Mars-like surface UV radiation conditions in space. Under Martian surface conditions, their half-lives ranged from 50 to 150 hours. Amino acids and a dipeptide in pure form and embedded in meteorite powder were exposed to space conditions for 18 months in order to study the chemical behavior of organic molecules in the space environment. The samples were then brought back to Earth and examined in a lab for reactions brought on by solar UV and cosmic radiation [@wassmannSurvivalSporesUVResistant2012]. The findings demonstrate that the chemical makeup of the exposed molecules and the UV light's wavelengths affect resistance to irradiation. Aspartic acid, aminobutyric acid, and the dipeptide were the most changed substances. Alanine, valine, glycine, and aminoisobutyric acid were the most resistant. The findings also show that meteorite powder has a protective effect, highlighting the significance of exogenic contributions to the prebiotic organics inventory on early Earth.
+
+### Findings
+
+The findings attest to some microorganisms' extraordinary resistance. In LEO, spores of the bacterium *Bacillus subtilis*, including the UV-resistant strain from the ADAPT study, endured an astonishing 1.5 years. Despite the catastrophic mix of vacuum, desiccation, and strong sun radiation, this survival took place. Furthermore, certain eukaryotic life forms, such as the green alga *Stichococcus* sp. and the rock-dwelling Antarctic fungi *Cryomyces antarcticus*, also endured the exposure, particularly when they had minimal shielding. This suggests that protection afforded by even thin layers of soil or rock is sufficient to shield life from the worst effects of space, providing experimental support for the theory of lithopanspermia. In stark contrast, the basic organic molecules necessary for life, like amino acids glycine and serine, were found to be highly vulnerable. They rapidly degraded under UV radiation comparable to the Martian surface, showing half-lives of just 50 to 150 hours. This finding is essential for Mars exploration, suggesting that the absence of organic signatures detected on the planet's surface may simply be the result of rapid photodegradation rather than an indication that life never existed there [@wassmannSurvivalSporesUVResistant2012].
+
+### Forward Contamination
+
+Experiments like EXPOSE have proved that some terrestrial bacteria are resilient in space, which raises serious worries about forward contamination. This is the inadvertent transfer of germs from Earth to other celestial bodies on spacecraft. Highly resilient species, like *Bacillus subtilis* spores or cryptoendolithic fungi (microbes that live in rocks), have demonstrated their ability to withstand the severe temperatures, radiation, and vacuum of space. They may be able to travel to and infect delicate locations like Mars, Europa, or Enceladus if they can withstand extended exposure in LEO [@pacelliResponsesBlackFungus2020]. If extraterrestrial ecosystems exist, such contamination could interfere with native biochemical processes or introduce false positives for life, which could jeopardize future astrobiological research. Because even a tiny number of hitchhiking microbes could alter the chemical environment, this possibility is particularly significant for missions intended to find biosignatures or identify subsurface habitability [@onofriSurvivalAntarcticCryptoendolithic2015]. To protect scientific integrity and the biological isolation of other worlds, international space organizations adhere to stringent COSPAR Planetary Protection requirements, which require rigorous sterilization procedures, cleanroom assembly, and microbial load reduction.
+
+### Panspermia
+
+The scientific viability of panspermia, particularly lithopanspermia, the hypothesis that life could be carried between planets via rocks ejected by impacts is greatly strengthened by the demonstrated resistance of microbes in the ISS exposure tests [@PanspermiaResearchStarters]. Although the EXPOSE experiments lasted only 1.5 years, far shorter than the millions of years required for natural interplanetary travel, the ability of bacterial spores, lichens, and rock-inhabiting fungi to survive vacuum, cosmic radiation, and severe temperature cycles provides the first controlled evidence that certain microorganisms can endure the essential stages of space transfer [@wessonPanspermiaPresentAstrophysical2010]. If shielded inside rock pores or mineral matrices, these organisms could theoretically remain protected from destructive ultraviolet radiation and cosmic particles, increasing their likelihood of surviving long-duration transit. These findings do not prove that panspermia has occurred, but they meaningfully strengthen its feasibility by demonstrating that the biological component of interplanetary transport is physically possible. As a result, the concept of life dispersal across planetary systems, once purely speculative, now rests on experimental data showing that at least some Earth organisms possess the durability required to persist beyond their home planet.
 
 # Conclusion
 
+The exploration of microbial life across history, culture, and science illuminates the multifaceted and often underestimated role of microorganisms in shaping human civilization and the cosmos. Microbes are not merely biological entities but historical agents, driving significant societal shifts—from the plagues that altered demographics and political power structures to the development of early fermented foods that sustained populations and helped launch biotechnology. Their influence extends far beyond the laboratory; microbes have inspired artists, fueled creative expression, and challenged our understanding of life through astrobiological studies aboard the ISS. Whether thriving in the scorching heat of hydrothermal vents, frozen deep within polar ice, or surviving direct exposure to cosmic radiation, microbes continually expand the boundaries of where life can exist and how it can adapt. Beyond the laboratory, microbes have also found a place in the creative sphere, serving as a unique living medium for bio-art and creating vibrant, growing installations that challenge traditional artistic boundaries and encourage reflection on life’s smallest forms. Finally, the field of astrobiology confirms that microbes are cosmic pioneers, surviving in extreme terrestrial environments that mimic conditions on other planets. They are fundamental to the search for extraterrestrial life and will be vital for supporting long-duration human space missions.
+
+Together, these examples demonstrate that microbes are powerful agents of change—shaping ecosystems, societies, culture, and our understanding of life beyond Earth. Far from passive or peripheral, microorganisms drive ecological processes, inspire artistic expression, and define the biological limits of habitability on Earth and elsewhere.
+
 # Abbreviations
 
-\begin{tabular}{l|l}
+\begin{table}[!htb]
+  \centering
+  \begin{tabular}{ p{2.2cm} | p{5.6cm} }
   \textbf{Abbreviation} & \textbf{Full Term} \\
     \hline
-    PGx & Pharmacogenomic \\
-    DSA & Dolor sit amet \\
-\end{tabular}
+    ADAPT & Molecular adaption strategies of microorganisms to different space and planetary UV climate conditions \\
+    COSPAR & Committee on Space Research \\
+    EXPOSE-E & European Space Agency Exposure Facility E \\
+    ISS & International Space Station \\
+    LEO & Low Earth Orbit \\
+  \end{tabular}
+  % \caption{Abbreviations}
+  % \label{tab:abbrev}
+\end{table}
 
 # Declaration of Competing Interest
 
@@ -257,9 +314,14 @@ The authors declare no competing interests.
 
 The Quarto project underlying this paper—including the manuscript, figures, and bibliography—is available at \url{https://github.com/ht2905/historical-microbes}.
 
-\clearpage
-
 # Appendix A: Supplementary Figures
+
+\begin{figure*}[htb]
+    \centering
+    \includegraphics[width=17cm]{photos/bac_art_structure.jpg}
+    \caption{Chemical structures of the bacterial pigments violacein (produced by \textit{Chromobacterium violaceum}) and prodigiosin (produced by \textit{Serratia marcescens}), shown alongside the respective colored phenotypes of the producing bacterial strains. Reproduced from Choi SY, Lim S, Yoon K, Lee JI, Mitchell RJ \cite{choiBiotechnologicalActivitiesApplications2021}.}
+    \label{fig:bac-art-structure}
+\end{figure*}
 
 \begin{figure*}
     \centering
@@ -270,14 +332,7 @@ The Quarto project underlying this paper—including the manuscript, figures, an
 
 \begin{figure*}
     \centering
-    \includegraphics[width=\textwidth]{photos/living_agar_art.jpg}
-    \caption{Examples of Agar Art from Living Microbes. Panels (A-C) display winning entries from the ASM Agar Art Contest. (A) "Cell to cell" (2015) using yellow \textit{Nesterenkonia}, orange \textit{Deinococcus}, and \textit{Sphingomonas}. (B) "Neurons" (2015) using red \textit{Serratia}, yellow \textit{Nesterenkonia}, orange \textit{Deinococcus}, and \textit{Sphingomonas}. (C) "Sustenance" (2018): (Top) pink colonies, orange \textit{Nesterenkonia}, and \textit{Deinococcus radiodurans}. (Bottom) Dark-violet recombinant \textit{E. coli} (violacein pathway), red \textit{Serratia marcescens}, and white \textit{Bacillus}. (D) "Remainders": microbial paintings on food-colored agar plugs. (E) "Boston skyline" (2019): sculpted and collaged agar and bacteria. (F) "Bacillus surprise": dark-violet recombinant \textit{E. coli} and white \textit{Bacillus}. (G) A palette of colored recombinant yeast (\textit{Saccharomyces cerevisiae}) expressing chromogenic proteins (black/grey/purple from violacein, blue from anemone gene, pink from RFP, and various yellows/oranges from beta-carotene). (H) "Puzzle Pieces" (2017) and (I) "Sunset at the End" (2016): patterns printed using engineered \textit{S. cerevisiae}. Reproduced from Frankel E, Temple J, Dikener E, Berkmen M \cite{frankelBridgingGapBacterial2023}.}
-    \label{fig:living-agar-art}
-\end{figure*}
-
-\begin{figure*}
-    \centering
-    \includegraphics[width=\textwidth]{photos/the_first_race.jpg}
+    \includegraphics[width=17cm]{photos/the_first_race.jpg}
     \caption{The 2016 winner of the American Society of Microbiology’s Agar Contest, titled The First Race, depicted fertilization. Graduate student Md Zohorul Islam of the University of Copenhagen “painted” with four bacteria on a selective agar canvas. The red was \textit{Staphylococcus aureus}, a pathogen in both humans and animals. \textit{Staphylococcus xylosus}, a commensal organism in human skin, generated green. The white was \textit{Staphylococcus hyicus}, an animal pathogen responsible for grassy pig disease. And yellow came from \textit{Corynebacterium glutamicum}, a bacterium used to produce amino acids, such as L-glutamate and L-lysine. Other colors came from mixing two or more of these microbes. Artwork by Md Zohorul Islam (University of Copenhagen, Copenhagen). Image courtesy of American Society for Microbiology. Reproduced from Madhusoodanan Y \cite{madhusoodananScienceCulturePetri2016}.}
     \label{fig:first-race}
 \end{figure*}
@@ -307,38 +362,11 @@ The Quarto project underlying this paper—including the manuscript, figures, an
     \label{fig:fungi-struc}
 \end{figure*}
 
-\begin{table*}[htb]
-  \centering
-  \caption{Fungal pigments and their application in the textile industry}
-  \label{tab:textile-application}
-  \begin{tabular}{ p{0.28\textwidth} | p{0.18\textwidth} | p{0.18\textwidth} | p{0.28\textwidth} }
-    \textbf{Fungi} & \textbf{Pigment} & \textbf {Color} & \textbf {Fabrics} \\
-    \hline
-    \textit{Alternaria alternata} & Anthraquinones & Reddish-brown & Cotton \\
-    \textit{Penicillium Oxalium} & Anthraquinones & Arpink red & Wool \\
-    \textit{Chlorociboria aeruginosa} \newline \textit{Scytalidium cuboideum}  \newline \textit{Scytalidium ganodermophthorum} & Quinones & Green \newline Red \newline Yellow & Bleached cotton, spun polyacrylic, spun polyamide, spun polyester, worsted wool \\
-    \textit{Aspergillus} sp. & Quinones & Brown cotton & Silk, silk cotton \\
-    \textit{Acrostalagmus} (NRC 90) & Quinones & Brown & Wool \\
-    \textit{Alternaria alternata} (NRC17) & Quinones & Reddish-brown & Wool \\
-    \textit{Alternaria} sp. (NRC 97) & Quinones & Brown & Wool \\
-    \textit{Aspergillus niger} (NRC 95) & Quinones & Brown & Wool \\
-    \textit{Bisporomyces} sp. (NRC 63) & Quinones & Deep brown & Wool \\
-    \textit{Penicillium murcianum} & Cartenoids & Yellow & Wool \\
-    \textit{Talaromyces australis} & 2,4-Di-tert-butylphenol & Red & Cotton fabric \\
-    \textit{Phoma harbarum} & Magenta pigment & Magenta & Nylon \\
-    \textit{Talaromyces verruculosus} & Polyketide & Red & Cotton fabric \\
-    \textit{Monascus purpureus} & Rubropunctamine & Red & Wool \\
-  \end{tabular}
-  \vspace{1ex}
-  {\footnotesize\itshape
-    Note. Fungal pigments and their application in the textile industry. Adapted from Elkhateeb W, Elnahas M, Daba G \cite{elkhateebWideRangeApplications2023}.}
-\end{table*}
-
 \begin{figure*}
     \centering
     \includegraphics[width=\textwidth]{photos/sankey_dia.png}
     \caption{A sankey diagram visualising the key medical astro-microbiology considerations relating to spaceflight and celestial body habitation. Reproduced from McDonagh et al. \cite{mcdonaghMedicalAstroMicrobiologyCurrent2023}.}
-    \label{fig:swan-necked}
+    \label{fig:sankey-dia}
 \end{figure*}
 
 \begin{figure*}[htb]
