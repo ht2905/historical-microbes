@@ -157,7 +157,7 @@ In 1928 Scottish bacteriologist Alexander Fleming made a chance observation that
 
 ### Impact on Medicine
 
-Fleming named the active compound penicillin. Although large-scale production was achieved later by Howard Florey and Ernst Chain during World War II, Fleming’s discovery provided the first effective chemical therapy for many previously lethal bacterial infections [@DiscoveryAntibiotics; @tanAlexanderFleming188119552015]. Penicillin was widely celebrated as a “miracle drug” that saved millions of lives from wound infections and diseases such as pneumonia and syphilis. Importantly, Fleming also cautioned early on about the risk of antibiotic resistance, a concern that remains central to medicine today [@SirAlexanderFleming].
+Fleming named the active compound penicillin. Although large-scale production was achieved later by Howard Florey and Ernst Chain during World War II, Fleming’s discovery provided the first effective chemical therapy for many previously lethal bacterial infections [@tanAlexanderFleming188119552015]. Penicillin was widely celebrated as a “miracle drug” that saved millions of lives from wound infections and diseases such as pneumonia and syphilis. Importantly, Fleming also cautioned early on about the risk of antibiotic resistance, a concern that remains central to medicine today [@SirAlexanderFleming].
 
 ## Robert Koch and Koch's Postulates
 
@@ -192,7 +192,7 @@ Beyond its artistic and educational roles, bacterial art has practical applicati
     \label{fig:art-petri}
 \end{figure*}
 
-Biopainting extends bacterial art by harnessing biotechnology and synthetic biology to generate colors and images on culture media. Engineering *Escherichia coli* to express a palette of eukaryotic chromoproteins creates vividly colored colonies visible in ambient light, demonstrating that synthetic circuits can be read out as visible color patterns (see Fig. \ref{ecoli_art}). When “painted” onto agar, these patterns directly reflect the activity of specific genes or circuits, allowing researchers to track gene expression, environmental responses, or circuit activation without specialized instrumentation. This approach highlights how biopainting can function as a simple, observable readout for synthetic gene circuits [@liljeruhmEngineeringPaletteEukaryotic2018].
+Biopainting extends bacterial art by harnessing biotechnology and synthetic biology to generate colors and images on culture media. Engineering *Escherichia coli* to express a palette of eukaryotic chromoproteins creates vividly colored colonies visible in ambient light, demonstrating that synthetic circuits can be read out as visible color patterns (see Fig. \ref{fig:ecoli-art}). When “painted” onto agar, these patterns directly reflect the activity of specific genes or circuits, allowing researchers to track gene expression, environmental responses, or circuit activation without specialized instrumentation. This approach highlights how biopainting can function as a simple, observable readout for synthetic gene circuits [@liljeruhmEngineeringPaletteEukaryotic2018].
 
 \begin{figure*}[!htb]
     \centering
@@ -235,7 +235,7 @@ Extreme settings can be either naturally occurring or man-made; these microbes a
 
 \begin{figure*}[!htb]
     \centering
-    \includegraphics[width=\textwidth]{photos/ext_env_earth.jpg}
+    \includegraphics[width=17cm]{photos/ext_env_earth.jpg}
     \caption{Representative idealized cross section of Earth’s crust showing the diversity of extreme environments and their approximate location. Reproduced from Merino N, Aronson HS, Bojanova DP, Feyhl-Buska J, Wong ML, Zhang S et al. \cite{merinoLivingExtremesExtremophiles2019}.}
     \label{fig:ext-env-earth}
 \end{figure*}
