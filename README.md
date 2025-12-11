@@ -13,7 +13,7 @@ This paper explores the multifaceted role of **microorganisms** throughout histo
 * **Topic:** Microbes as Agents of Change
 * **Course:** Microbiology (BT321IU)
 * **Authors:** Tran Quoc Hoang, Nguyen Hoang Tuong Vy, Nguyen Vy Van, Nguyen Le Ngoc Vy, Nguyen Hoang Quynh Anh
-* **Submission Date:** 11 December 2025
+* **Submission Date:** 09 December 2025
 
 **Abstract Highlights:**
 
