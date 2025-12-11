@@ -122,7 +122,7 @@ Shifting focus to another microbial agent that fundamentally altered human histo
 
 The fight against smallpox marked the birth of immunology. In 1796, Edward Jenner observed that milkmaids who contracted cowpox (a mild disease) were immune to smallpox. He tested this hypothesis by inoculating a young boy with material from a cowpox lesion and subsequently exposing him to smallpox; the boy remained healthy [@riedelSmallpoxBiologicalWarfare2005; @barquetSmallpoxTriumphMost1997]. Jenner’s work established the principle of vaccination, a term derived from *vacca* (Latin for cow), replacing the riskier practice of variolatio, an earlier technique that intentionally induced a mild smallpox infection to confer immunity [@vaishaliEdwardJennerPioneer2024].
 
-Smallpox holds the distinction of being the first and only human infectious disease to be eradicated. Following a massive global campaign by the World Health Organization (WHO) involving vaccination, surveillance, and quarantine, the disease was declared eradicated in 1980 [@Smallpox; @simonsenSmallpox2025]. As such, the disease marks a turning point in human–microbe relations, where scientific understanding allowed humans not to eliminate microbial influence, but to strategically counter it.
+Smallpox holds the distinction of being the first and only human infectious disease to be eradicated. Following a massive global campaign by the World Health Organization (WHO) involving vaccination, surveillance, and quarantine, the disease was declared eradicated in 1980 [@Smallpox; @simonsenSmallpox2025]. As such, the disease marks a turning point in human–microbe relations, where scientific understanding allowed humans strategically counter microbial influence.
 
 Together, the Black Death and smallpox demonstrate that microbial impact is not limited to mortality statistics but extends to structural reorganization of societies. In both cases, the biological features of the pathogen—mode of transmission, immunity dynamics, and host susceptibility—directly shaped political power, labor systems, and colonial outcomes. These outcomes were not accidental side effects of disease but emergent properties of microbial life interacting with human networks. In this sense, microbes acted less like external shocks and more like historical actors whose constraints forced new social equilibria.
 
@@ -161,9 +161,9 @@ Robert Koch, a German physician, is often regarded as one of the founders of med
 
 ### Key Discoveries
 
-Using these methods, Koch identified the specific causative agents of several deadly diseases, including *Bacillus anthracis* (anthrax), *Vibrio cholerae* (cholera), and *Mycobacterium tuberculosis* (tuberculosis) [@kochAetiologieMilzbrandKrankheitBegruendet2010; @UeberAugenblicklichenStand; @gesundheitsamtMittheilungenAusKaiserlichen1884]. His work provided the definitive proof for the germ theory of disease and established the standards for diagnostic microbiology [@tyagiTimelessLegacyRobert2006]. While foundational, Koch’s Postulates are limited when applied to viruses, unculturable organisms, and polymicrobial diseases.
+Using these methods, Koch identified the specific causative agents of several deadly diseases, including *Bacillus anthracis* (anthrax), *Vibrio cholerae* (cholera), and *Mycobacterium tuberculosis* (tuberculosis) [@kochAetiologieMilzbrandKrankheitBegruendet2010; @UeberAugenblicklichenStand; @gesundheitsamtMittheilungenAusKaiserlichen1884]. His work provided the definitive proof for the germ theory of disease and established the standards for diagnostic microbiology [@tyagiTimelessLegacyRobert2006]. Though foundational, Koch’s Postulates are limited when applied to viruses, unculturable organisms, and polymicrobial diseases.
 
-While Pasteur, Koch, and Fleming are often presented as isolated geniuses, their collective impact lies in how they transformed microbes from invisible fate into governable entities. Germ theory reframed illness as a biological interaction, antibiotics redefined survivability, and laboratory standards stabilized microbial knowledge across institutions. The rise of antibiotic resistance illustrates that microbial evolution continues to negotiate, resist, and sometimes overturn human control, reinforcing the argument that microbes remain active participants rather than solved problems.
+Pasteur, Koch, and Fleming are often presented as isolated geniuses,but their collective impact lies in how they transformed microbes from invisible fate into governable entities. Germ theory reframed illness as a biological interaction, antibiotics redefined survivability, and laboratory standards stabilized microbial knowledge across institutions. The rise of antibiotic resistance illustrates that microbial evolution continues to negotiate, resist, and sometimes overturn human control, reinforcing the argument that microbes remain active participants rather than solved problems.
 
 # Microbes in Art and Culture
 
@@ -201,7 +201,7 @@ The rapid development of greener approaches in industrial processes, such as tex
 
 Fungi have shaped the history of natural dyes for centuries, with uses like ancient lichen dyes extracted from *Roccella* and *Ochrolechia* species for purples and violets. There were many traditional dyes made from lichens in the Scottish Highlands, including red dyes from the cudbear lichen (*Lecanora tartarea*), the common orange lichen (*Xanthoriaparietina*), and several species of leafy *Parmelia* lichens. During the 15th and 17th centuries, purple lichen dyes continued to play an important role in the European dyeing industry [@ratherLichenDerivedNatural2018]. And today, the traditional practices have evolved into modern bio-dyes via fermentation to serve the demand of today’s sustainable textile production [@paillie-jimenezNaturalPigmentsMicrobial2020].
 
-From an industrial perspective, most fungal pigments are water-soluble, making production and extraction relatively straightforward. They can be easily cultivated and scaled up in industrial fermentation systems and can be harvested without the need for organic solvents, enhancing their sustainability and environmental compatibility (see Fig. \ref{fig:fungi-scaling}). For reference, Table \ref{tab:industrial-pigments} shows List of fungal pigments produced on an industrial scale.
+From an industrial perspective, most fungal pigments are water-soluble, making production and extraction relatively straightforward. They can be easily cultivated and scaled up in industrial fermentation systems and can be harvested without the need for organic solvents, enhancing their sustainability and environmental compatibility (see Fig. \ref{fig:fungi-scaling}). For reference, Table \ref{tab:industrial-pigments} shows a list of fungal pigments produced on an industrial scale.
 
 \begin{figure*}[htb]
     \centering
@@ -305,6 +305,23 @@ Together, these examples demonstrate that microbes are powerful agents of change
   % \caption{Abbreviations}
   % \label{tab:abbrev}
 \end{table}
+
+Here is a clean, publication-ready *Author Contributions* section in the same style and structure as your previous one, with your own contribution intentionally omitted as requested:
+
+---
+
+# Author Contributions
+
+- Tran Quoc Hoang: Conceived the study and developed the overall methodology (Conceptualization, Methodology). Managed the project and compiled the manuscript in Quarto (Project Administration, Software). Performed literature synthesis and wrote *Section 2* “Microbes that Changed History” and *Section 3* "Famous Microbiologists and Groundbreaking
+Discoveries" (Investigation, Writing – Original Draft). Contributed to reviewing and editing the manuscript (Writing – Review & Editing).
+
+- Nguyen Hoang Tuong Vy: Wrote *Section 5* “Bacteria in Space (Astromicrobiology)” and the *Conclusion* (Writing – Original Draft). Contributed to reviewing and editing the manuscript (Writing – Review & Editing).
+
+- Nguyen Vy Van: Wrote *Section 4* “Microbes in Art and Culture” and the *Introduction* (Writing – Original Draft). Conducted related background investigation (Investigation). Contributed to reviewing and editing the manuscript (Writing – Review & Editing).
+
+- Nguyen Le Ngoc Vy: Co-authored the *Abstract* and summarized the manuscript to prepare presentation slides (Data Curation, Visualization). Contributed to reviewing and editing the manuscript (Writing – Review & Editing).
+
+- Nguyen Hoang Quynh Anh: Co-authored the *Abstract* and summarized the manuscript to prepare presentation slides (Data Curation, Visualization). Contributed to reviewing and editing the manuscript (Writing – Review & Editing).
 
 # Declaration of Competing Interest
 
