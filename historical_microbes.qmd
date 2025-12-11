@@ -142,6 +142,13 @@ This section examines how key microbiologists transformed microbes from invisibl
 
 Louis Pasteur, a French chemist, fundamentally changed biological thinking by experimentally overturning the idea of spontaneous generation. Using swan-necked flasks, he showed that microorganisms from the air—not a mysterious “vital force”—caused contamination of sterile broth (see Fig. \ref{fig:swan-necked}). His work provided crucial support for the germ theory of disease, which holds that specific, often invisible microbes are responsible for specific illnesses [@LouisPasteurMicrobiology2025; @LouisPasteurGerm].
 
+\begin{figure*}[!htb]
+    \centering
+    \includegraphics[width=17.5cm]{photos/swan_necked_exp.jpg}
+    \caption{Pasteur’s swan-necked flask experiment illustrating how airborne microorganisms, rather than a “vital force,” contaminate sterile broth. Reproduced from Shutterstock \cite{PasteurTheorieFuerLebensbeginn}.}
+    \label{fig:swan-necked}
+\end{figure*}
+
 ### Pasteurization
 Beyond theory, Pasteur applied his insights to practical problems in the wine and silk industries. He demonstrated that controlled heating of liquids (commonly in the range of $60–90^{\circ}\text{C}$) could kill spoilage organisms without destroying the product. This process—pasteurization—transformed food safety and remains widely used today for milk and other beverages [@PasteurizationDefinitionProcess2025].
 
@@ -305,13 +312,6 @@ The authors declare no competing interests.
 The Quarto project underlying this paper—including the manuscript, figures, and bibliography—is available at \url{https://github.com/ht2905/historical-microbes}.
 
 # Appendix A: Supplementary Figures
-
-\begin{figure*}
-    \centering
-    \includegraphics[width=\textwidth]{photos/swan_necked_exp.jpg}
-    \caption{Pasteur’s swan-necked flask experiment illustrating how airborne microorganisms, rather than a “vital force,” contaminate sterile broth. Reproduced from Shutterstock \cite{PasteurTheorieFuerLebensbeginn}.}
-    \label{fig:swan-necked}
-\end{figure*}
 
 \begin{figure*}[htb]
     \centering
