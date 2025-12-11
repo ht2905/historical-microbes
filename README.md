@@ -45,7 +45,7 @@ This project uses **Quarto** and **R (RStudio)** to dynamically generate the man
 
 ## ⚠️ Disclaimer
 
-I have tried my best to make this **README.md reproducible for non-techies**, including step-by-step instructions for system dependencies, R packages, and Quarto templates. However, due to the complexity of the manuscript, figures, and software dependencies, **unexpected errors may still occur**. Users should be prepared to troubleshoot minor issues or adapt instructions to their system environment.
+I have tried my best to make this **Quarto project reproducible for non-techies**, including step-by-step instructions for system dependencies, R packages, and Quarto templates. However, due to the complexity of the manuscript, figures, and software dependencies, **unexpected errors may still occur**. Users should be prepared to troubleshoot minor issues or adapt instructions to their system environment.
 
 > **Tip:** Tech-savvy users with a working Quarto and R environment can skip straight to **Step 4 – Render the Manuscript**.
 
@@ -109,7 +109,7 @@ Once all dependencies are installed, run:
 quarto render historical_microbes.qmd
 ```
 
-Outputs will include PDF and Word versions, with figures, tables, and references automatically formatted via the **Elsevier template**.
+Outputs will be in PDF format, with figures, tables, and references automatically handled via the **Elsevier template**.
 
 ---
 
