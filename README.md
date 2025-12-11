@@ -144,3 +144,5 @@ The authors declare no competing interests.
 
 The full Quarto project (manuscript, figures, and bibliography) is available at:
 [https://github.com/ht2905/historical-microbes](https://github.com/ht2905/historical-microbes)
+
+> **PDF Preview:** A rendered PDF version of the manuscript is included in the repository for quick reference.
