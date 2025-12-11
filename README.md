@@ -2,6 +2,8 @@
 
 This repository contains the **Quarto** source code and supporting files for an academic paper submitted for the **Microbiology (BT321IU)** course. The manuscript was prepared using the **Elsevier Quarto template** for journal-ready formatting, references, and figures.
 
+> **PDF Preview:** A rendered PDF version of the manuscript is included in this repository for quick viewing without rendering the source files.
+
 ---
 
 ## 🎯 Project Overview
@@ -28,7 +30,7 @@ This project uses **Quarto** and **R (RStudio)** to dynamically generate the man
 
 ### Main Files
 
-* **Manuscript Source:** `Microbes_as_Agents_of_Change.qmd`
+* **Manuscript Source:* `historical_microbes.qmd`
 * **Bibliography:** `bibliography.bib`
 * **Figures:** `/photos/` folder
 * **LaTeX Header:** `preamble.tex`
