@@ -45,29 +45,13 @@ This project uses **Quarto** and **R (RStudio)** to dynamically generate the man
 
 ## ⚠️ Disclaimer
 
-I have tried my best to make this **Quarto project reproducible for non-techies**, including step-by-step instructions for system dependencies, R packages, and Quarto templates. However, due to the complexity of the manuscript, figures, and software dependencies, **unexpected errors may still occur**. Users should be prepared to troubleshoot minor issues or adapt instructions to their system environment.
-
-> **Tip:** Tech-savvy users with a working Quarto and R environment can skip straight to **Step 4 – Render the Manuscript**.
+This README intentionally omits an explicit list of system-level packages and platform-specific build commands. Collaborators are expected to manage any required system dependencies appropriate to their environment. The project is reproducible at the R/Quarto level via `renv` and the steps below; however, rendering advanced outputs (e.g., PDF) can require additional system libraries or LaTeX, which are not documented here.
 
 ---
 
 ## 🛠 Installation Instructions
 
-### 1️⃣ Install System Dependencies
-
-**On Linux (Ubuntu/WSL):**
-
-```bash
-sudo apt update
-sudo apt install r-base r-base-dev libfontconfig1-dev libfreetype6-dev libwebp-dev
-```
-
-**On Windows:**
-Install [R](https://cran.r-project.org/) and [RTools](https://cran.r-project.org/bin/windows/Rtools/).
-
----
-
-### 2️⃣ Install R Packages
+### 1️⃣ Install R Packages
 
 Open R or RStudio, then install `renv` if not already present:
 
@@ -85,7 +69,7 @@ This will install all necessary packages, including `tinytex` for PDF rendering.
 
 ---
 
-### 3️⃣ Install Quarto & Elsevier Template
+### 2️⃣ Install Quarto & Elsevier Template
 
 1. Install **Quarto** from [https://quarto.org/docs/get-started/](https://quarto.org/docs/get-started/). Verify installation:
 
@@ -101,7 +85,7 @@ quarto add quarto-journals/elsevier
 
 ---
 
-### 4️⃣ Render the Manuscript
+### 3️⃣ Render the Manuscript
 
 Once all dependencies are installed, run:
 
