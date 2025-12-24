@@ -7,7 +7,7 @@
 .RData # R image file
 .RDataTmp # Temporary R image file
 .Ruserdata # R user data
-*.Rproj # RStudio project file
+# .Rproj # RStudio project file
 
 # R console/history files (Consolen-/Verlaufsdateien)
 .Rhistory
